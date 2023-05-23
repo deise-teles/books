@@ -1,0 +1,94 @@
+*{
+    background-color: #B1CFEA;
+  }
+  figure{
+    background-color: #644F41;
+  }
+  figcaption{
+    background-color: #644F41;
+    color: #B1CFEA;
+  }
+  input, option, select{
+    background-color: #644F41;
+    color: white;
+  }
+  a{
+    background-color: #644F41;
+    color: #FFB6C1;
+  }
+  #principal{
+    background-color: #644F41;
+    border: 1px solid #C17E52;
+    border-radius: 5px;
+    margin: 5px;
+    padding:20px;
+  }
+  #menu{
+    text-align: center;
+  }
+  #p1{
+    font-size: 50px;
+  }
+  #referencias{
+    font-size: 15px;
+    text-align: center;
+    color: 	#E9B49D;
+     background-color: #644F41;
+  }
+  .p2{
+    font-weight: bolder;
+    font-size: 25px;
+    border: 1px  solid #B1CFEA;
+    margin: 10px;
+    padding:8px;
+  }
+  #btEntrar, #btCadastro{
+    background-color: #644F41;
+    font-size: 28px;
+    color: 	#E9B49D;
+    height: 55px;
+    border-radius: 15px;
+    border: 3px dotted #C17E52;
+  }
+  #cadastroFim{
+    background-color: #644F41;
+    font-size: 20px;
+    color: 	#E9B49D;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #C17E52;
+    position: absolute;
+      top: 600px;
+      left: 1000px;
+  }
+  #p1, .p2, #p3{
+    background-color: #644F41;
+    color: #C17E52;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  .p4{
+    color: #C17E52;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 25px;
+  }
+  #fatos_reais, #ficcao, #romance, #terror{
+    background-color: #644F41;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: none;
+    width: 1200px;
+    overflow-y: scroll;
+  }
+  #displayCadastro, #displayEntrar, #displayPgCliente{
+    display: none;
+  }
+  
+  @media (max-width: 850px) {
+    #menu{
+      display: block;
+      padding: 5px;
+    }
+    #fatos_reais, #ficcao, #romance, #terror{
+      width: 800px;
+      overflow-y: scroll;
+    }
+  }
